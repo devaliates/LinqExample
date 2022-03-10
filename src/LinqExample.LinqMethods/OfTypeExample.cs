@@ -7,6 +7,6 @@ public class OfTypeExample
 {
     public void GetStrings()
     {
-        var stringResult = Repositories.Repository.mixedList.OfType<string>();
+        var stringResult = Repository.mixedList.OfType<string>();
     }
 }
